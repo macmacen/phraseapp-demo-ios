@@ -1,0 +1,23 @@
+phraseapp:
+  access_token: dbf403e36fda2670920417d8e8540ab036b570955ab7c7bd64203f02dd8e808a
+  project_id: cc08247f1e1de3524921ef0f50e7f21b
+  push:
+    sources:
+    - file: ./phraseapp-test-ios/Base.lproj/Localizable.strings
+      params:
+        locale_id: English
+        file_format: strings	
+    - file: ./phraseapp-test-ios/de.lproj/Localizable.strings
+      params:
+        locale_id: German
+        file_format: strings		
+  pull:
+    targets:
+    - file: ./phraseapp-test-ios/Base.lproj/Localizable.strings
+      params:
+        locale_id: en
+        file_format: strings
+    - file: ./phraseapp-test-ios/de.lproj/Localizable.strings
+      params:
+        locale_id: de
+        file_format: strings
