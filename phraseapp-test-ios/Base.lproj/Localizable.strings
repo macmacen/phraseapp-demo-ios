@@ -1,10 +1,2 @@
-/* 
-  Localizable.strings
-  phraseapp-test-ios
-
-  Created by Matthias Redlin on 05.05.17.
-  Copyright © 2017 Matthias Redlin. All rights reserved.
-*/
-
-
+/* The placeholder of the username textfield on login screen */
 "Login.Username.Placeholder" = "Enter Username";
